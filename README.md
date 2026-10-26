@@ -137,10 +137,25 @@ The notebook runs top to bottom with no manual intervention. Random seeds are fi
 ## 📂 Repository Contents
 
 ```text
-.
-├── Project_Sandbox.ipynb     # Main Databricks notebook (full analysis)
-├── README.md                 # This file – execution guide + mini-report
-└── images/                   # Figures extracted from the notebook outputs
+Chicago-crime-arrest-prediction-spark/
+├── data/
+│   └── Crime Prediction in Chicago_Dataset.csv
+├── docs/
+│   ├── Deck_Chicago_Arrest_Crime_Prediction.pdf
+│   └── Notebook_field_guide.pdf
+├── images/
+│   ├── 01_target_distribution.png
+│   ├── 02_arrest_rate_by_crime_type.png
+│   ├── 03_workload_vs_outcome.png
+│   ├── 04_heatmap_day_hour.png
+│   ├── 05_arrest_rate_by_location.png
+│   ├── 06_cramers_v.png
+│   ├── 07_confusion_matrices.png
+│   ├── 08_cumulative_gains.png
+│   └── 09_hourly.png
+├── notebooks/
+│   └── Chicago_crime_arrest_prediction.ipynb
+└── README.md
 ```
 
 ---
